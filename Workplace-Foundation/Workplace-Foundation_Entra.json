@@ -1,0 +1,24 @@
+[
+    {
+        "Name": "Microsoft Graph",
+        "Id": "00000003-0000-0000-c000-000000000000",
+        "AppRoleAssignments": [
+            "AdministrativeUnit.ReadWrite.All", # if Admin Units in use,
+            "Application.Read.All",
+            "CloudPC.ReadWrite.All", # if Windows 365 in use,
+            "Domain.Read.All",
+            "EntitlementManagement.ReadWrite.All",
+            "Group.ReadWrite.All",
+            "EntitlementManagement.ReadWrite.All",
+            "LicenseAssignment.ReadWrite.All",
+            "Policy.ReadWrite.Authorization",
+            "Policy.ReadWrite.AuthenticationFlows",
+            "Policy.ReadWrite.AuthenticationMethod",
+            "Policy.ReadWrite.ConditionalAccess",
+            "Policy.ReadWrite.DeviceConfiguration",
+            "Policy.ReadWrite.CrossTenantAccess",
+            "Policy.ReadWrite.PermissionGrant",
+            "RoleManagement.ReadWrite.Directory"
+        ]
+    }
+]
